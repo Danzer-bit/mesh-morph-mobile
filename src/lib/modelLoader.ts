@@ -1,4 +1,3 @@
-
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
@@ -9,7 +8,7 @@ export const sampleModels = [
   { id: 'cube', name: 'Cube', type: 'primitive' },
   { id: 'sphere', name: 'Sphere', type: 'primitive' },
   { id: 'torus', name: 'Torus', type: 'primitive' },
-  { id: 'suzanne', name: 'Suzanne (Monkey)', url: '/models/suzanne.glb', type: 'gltf' },
+  { id: 'suzanne', name: 'Suzanne (Monkey)', url: './models/suzanne.glb', type: 'gltf' },
 ];
 
 // Create a primitive geometry
