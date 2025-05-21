@@ -21,4 +21,10 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: mode === 'production' ? './' : '/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true,
+    sourcemap: false,
+  },
 }));
